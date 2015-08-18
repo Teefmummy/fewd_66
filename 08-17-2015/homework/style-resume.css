@@ -1,0 +1,41 @@
+body {
+	background-color: #4CB1FF;
+}
+img {
+	border: 10px solid #199BFF;
+	border-radius: 50%;
+}
+h1 {
+	font-size: 60px;
+}
+h2 {
+	text-align: center;
+	font-size: 50px;
+}
+header {
+	text-align: center;
+}
+.resume {
+	color: #B26B00;
+}
+#home-nyc {
+	font-size: 20px;
+}
+.phone-number {
+	font-size: 20px;
+}
+.section1 {
+	font-size: 25px;
+}
+.section2 {
+	font-size: 25px;
+}
+.section3 {
+	font-size: 25px;
+}
+.section4 {
+	font-size: 25px;
+}
+footer {
+	text-align: center;
+}
