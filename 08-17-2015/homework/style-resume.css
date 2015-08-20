@@ -39,3 +39,10 @@ header {
 footer {
 	text-align: center;
 }
+
+.section4 ul li {
+	color:red;
+}
+.computerchild li{
+	color:blue;
+}
