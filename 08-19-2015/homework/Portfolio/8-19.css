@@ -1,0 +1,90 @@
+html {
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+body {
+	background-color: #5C7346;
+}
+footer {
+	margin: 0;
+}
+.page-2 {
+	color: white;
+	font: 25px "Archivo Narrow";
+	background: #5C7346;
+	text-align: center;
+	margin: 50px 369px;
+}
+
+.front-page {
+	color: white;
+	font: 25px "Archivo Narrow";
+	background: #5C7346;
+	text-align: center;
+	margin: 0px 369px;
+	margin-right: red;
+}
+
+h2 {
+	text-align: left;
+}
+
+.website-logo {
+	float: left top;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border:solid #8C675A 5px;
+}
+
+img {
+	height: 25px;
+	width: 25px;
+}
+
+li {
+	list-style-type: none;
+	margin: 0 0 5px 0;
+	padding: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.links {
+	display: inline-block;
+	margin: 0;
+}
+
+.intro p {
+	font: 25px "Archivo Narrow";
+	text-align: justify;
+	background-color: #B6D96C;
+	margin: 0;
+	padding: 10px;
+}
+
+.Experience ul {
+	font: 25px "Archivo Narrow";
+	text-align: left;
+	background-color: #B6D96C;
+	margin: 0;
+	padding: 10px;
+
+}
+
+.education ul {
+	font: 25px "Archivo Narrow";
+	text-align: left;
+	background-color: #B6D96C;
+	margin: 0;
+	padding: 10px;
+}
+
+.experience ul .xp {
+	margin: 25px;
+	background-color: red;
+	padding: 10px;
+}
