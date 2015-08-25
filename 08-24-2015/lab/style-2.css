@@ -1,0 +1,34 @@
+header {
+	background-image: url("https://placeimg.com/1000/1000/nature");
+	height: 2200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+
+.forest img {
+	display: inline-block;
+	max-width: 100%;
+}
+
+.forest a {
+	color: red;
+
+}
+.forest a:hover {
+	color: blue;
+
+}
+.forest a:active {
+	color: green;
+
+}
+
+ul {
+	font-size: 40px;
+
+}
+
+li:first-child {
+	background:red;
+}
