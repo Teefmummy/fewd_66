@@ -1,0 +1,238 @@
+/*
+Project Name: Relaxr - Page Two
+Client: Relaxr
+Author: Andrew Bryner
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     font-family: 'Open Sans', sans-serif;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  height: 10%;
+  max-height: 125px;
+  background-color: #033048;
+}
+
+.logo {
+  display: flex;
+  font-size: 25px;
+  width: 25%;
+}
+.logo h1 {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+.logo h1 a{
+  align-self: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav {
+  width: 75%;
+  align-self: center;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-right: auto;
+  margin-left: auto;
+  text-decoration: none;
+}
+.nav ul li {
+  display: flex;
+  width: calc(20% - 10px);
+}
+.nav ul li a{
+  color: #f9e42e;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+main {
+  background-color: #cecece;
+  display: flex;
+  height: 70%;
+}
+.articles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 50px 40px 50px 0;
+  width: 75%;
+}
+
+.box {
+  justify-content: space-between;
+  width: 700px;
+  border-bottom: 2px solid black;
+}
+
+.box h1 {
+  color: #033048;
+  font-size: 30px;
+  font-weight: 600;
+
+}
+
+.box p {
+  font-weight: 300;
+  font-size: 24px;
+}
+.box h3 {
+  text-align: right;
+}
+.box h3 a{
+  font-size: 24px;
+  font-weight: 600;
+  text-align: right;
+  color: #033048;
+  text-decoration: none;
+}
+
+.aside {
+  width: 30%;
+  max-width: 240px;
+}
+.aside h2 {
+  color: #033048;
+  font-size: 32px;
+  font-weight: 800;
+}
+.aside h3 {
+  color: #033048;
+  font-size: 22px;
+  font-weight: 600;
+}
+.aside p {
+  font-size: 22px;
+  font-weight: 300;
+}
+.categories ul {
+  list-style: none;
+  font-size: 24px;
+  font-weight: 300;
+  padding-left: 5px;
+  text-decoration: none;
+}
+.categories ul li a{
+  color: #033048;
+  text-decoration: none;
+}
+.about h3 a {
+  color: #033048;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  display: flex;
+  height: 120px;
+  background-color: #f9e42e;
+}
+.button a {
+  background-color: #033048;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  height: 50px;
+  text-decoration: none;
+  text-align: center;
+  width: 300px;
+  margin: auto;
+}
+
+.bottom-content {
+  height: 350px;
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+}
+.bottom-content h2 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #f9e42e;
+  margin: auto;
+}
+.bottom-content .social {
+  margin: auto;
+}
+.social a {
+  margin: 0 15px 0 15px;
+}
+.bottom-content p {
+  color: white;
+  margin: auto;
+  font-size: 15px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
