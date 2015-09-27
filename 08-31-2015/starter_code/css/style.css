@@ -58,51 +58,43 @@ body {
 /*******************************************/
 
 /* Center the container */
+
 #container {
   width: 960px;
   margin: auto;
 }
 
 header {
-  display: flex;
-  height: 10%;
-  max-height: 125px;
+  max-height: 100%;
   background-color: #033048;
 }
 
 .logo {
-  display: flex;
+  text-align: center;
   font-size: 25px;
-  width: 25%;
-}
-.logo h1 {
-  display: flex;
   margin-right: auto;
   margin-left: auto;
 }
+
 .logo h1 a{
-  align-self: center;
   color: #ffffff;
   text-decoration: none;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .nav {
-  width: 75%;
-  align-self: center;
+  display: inline-block;
 }
 
 .nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  margin-right: auto;
-  margin-left: auto;
   text-decoration: none;
 }
 .nav ul li {
-  display: flex;
-  width: calc(20% - 10px);
+  float: left;
+  padding: 0 5px 0 0;
 }
+
 .nav ul li a{
   color: #f9e42e;
   font-weight: 600;
@@ -146,7 +138,6 @@ main {
 .box h3 a{
   font-size: 24px;
   font-weight: 600;
-  text-align: right;
   color: #033048;
   text-decoration: none;
 }
@@ -228,6 +219,54 @@ footer {
   color: white;
   margin: auto;
   font-size: 15px;
+}
+
+@media screen and (min-width:480px) {
+
+  header {
+    display: flex;
+    max-height: 125px;
+  }
+
+  .logo {
+    display: flex;
+    width: 25%;
+  }
+  .logo h1 {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .logo h1 a{
+    align-self: center;
+  }
+
+  .nav {
+    width: 75%;
+    align-self: center;
+  }
+
+  .nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;
+  }
+  .nav ul li {
+    display: flex;
+    width: calc(20% - 25px);
+  }
+
+  .nav ul li a{
+    color: #f9e42e;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
 }
 /******************************************
 /* ADDITIONAL STYLES
