@@ -1,0 +1,53 @@
+body {
+	background-color: #124123;
+	margin: 0;
+}
+header {
+	background-color: #636126;
+	margin: 0;
+}
+.hero-slider {
+
+	background-color: #126161;
+}
+
+/* .slick-slide is the name given to children of div elements*/
+
+.hero-slider .slick-slide {
+	background-size: cover;
+	font-size: 30px;
+	background-color: #cecece;
+	width: 100%;
+	height: 400px;
+}
+
+/* :nth-child() is a pseudo selector*/
+.hero-slider .slick-slide:nth-child(odd) {
+	background-color: aquamarine;
+}
+.hero-slider .slick-slide:nth-child(even) {
+	background-color: red;
+}
+
+
+a {
+	color: white;
+}
+.hero-slider > div {
+	background-size: cover;
+}
+.hero-slider .one {
+	background-image: url(https://s3.amazonaws.com/rapgenius/filepicker%2FPv0ixhz9SKuqaN1jqWm2_slick_rick.jpg);
+}
+.hero-slider .two {
+	background-image: url(http://www.mtv.com/crop-images/2013/09/06/Slick%20Rick%20GI.jpg);
+}
+.hero-slider .three {
+	background-image: url(http://thesource.com/wp-content/uploads/2014/03/Slick-Rick1.jpg);
+}
+.hero-slider .four {
+	background-image: url(http://41.media.tumblr.com/0474a174f82e87607c5cc568d3bd14f2/tumblr_njhcck1kNa1t4irw8o1_1280.jpg);
+}
+.hero-slider .five {
+	background-image: url(https://ionetheurbandaily.files.wordpress.com/2011/12/slick_rick-resized.jpg);
+}

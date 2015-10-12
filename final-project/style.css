@@ -1,0 +1,51 @@
+body { 
+	margin:0; padding:0; 
+}
+
+
+#map { 
+	position: absolute; 
+	top:155px; 
+	bottom:0; 
+	width:100%; 
+}
+	
+
+
+.header	{
+	background-color: #5C832F;
+	display: flex;
+	height: 150px;
+	margin: auto;
+	border-bottom: solid black 5px;
+
+}
+
+.logo	{
+	align-self: center;
+	color: #ffffff;
+	margin-left: 25px;
+	width: 25%;
+	font-size: 75px;
+
+}
+
+.regions	{
+	align-self: center;
+	color: #ffffff;
+	font-size: 75px;
+	width: 75%;
+}
+
+section {
+	background-color: #D8CAA8;
+	width: 100%;
+	height: 1000px;
+}
+select {
+	height: 25px;
+	background-color: red;
+}
+.selector {
+	background-color: red;
+}

@@ -1,0 +1,51 @@
+body {
+	background-color: #263248;
+}
+footer {
+	background-color: green;
+	height: 100px;
+	width: 100%;
+}
+
+#roof {
+	width: 0;
+	height: 0;
+	border-left: 300px solid transparent;
+	border-right: 300px solid transparent;
+	border-bottom: 200px solid #331E00;
+}
+#housebody {
+	width: 600px;
+	height: 500px;
+	background: #331E00;
+}
+.window1 {
+	margin: 25px 20px;
+	float: left;
+	width: 100px;
+	height: 400px;
+	background-color: ##263248;
+}
+.window2 {
+	margin: 25px 20px;
+	float: left;
+	width: 100px;
+	height: 400px;
+	background-color: ##263248;
+}
+.window3 {
+	margin: 25px 20px;
+	float: left;
+	width: 100px;
+	height: 400px;
+	background-color: ##263248;
+}
+.window4 {
+	margin: 25px 20px;
+	float: left;
+	width: 100px;
+	height: 400px;
+	background-color: ##263248;
+}
+
+

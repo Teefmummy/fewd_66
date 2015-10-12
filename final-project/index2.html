@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8 />
+	<title>A simple map</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	<script src='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
+	<link href='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet' />
+	
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+	<h1 class="logo">lorem</h1>
+	<select name="regions" id="regions">
+			<option value="Hokkaido">Hokkaido</option>
+			<option value="Tohoku">Tohoku</option>
+			<option value="Kanto">Kanto</option>
+			<option value="Chubu">Chubu</option>
+			<option value="Kansai">Kansai</option>
+			<option value="Chugoku">Chugoku</option>
+			<option value="Shikoku">Shikoku</option>
+			<option value="Kyushu">Kyushu</option>
+		</select>
+</header>
+<div id='map'></div>
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoidGVlZm11bW15MSIsImEiOiJjaWZpdHd2MW5id2E4c3Vrbnc2aGl3eDFjIn0.C9n_Xq2FiTcvC57Z1zyg0g';
+var map = L.mapbox.map('map', 'mapbox.streets')
+    .setView([38.091, 139.307], 6);
+</script>
+
+
+</body>
+</html>
