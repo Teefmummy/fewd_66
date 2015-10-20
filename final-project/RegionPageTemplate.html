@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Tour Japan Region Page</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700' rel='stylesheet' type='text/css'>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'>
+	<script src='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
+	<link href='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet'>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+	<h1 class="logo">Tour Japan</h1>
+	<div class="header-aside">
+		<h2 class="choice-text">Choose your region</h2>
+		<select name="regions" id="regions">
+			<option class="selector" value="https//:google.com">Hokkaido</option>
+			<option class="selector" value="RegionPageTemplate.html" href="RegionPageTemplate.html">Tohoku</option>
+			<option value="Kanto">Kanto</option>
+			<option value="Chubu">Chubu</option>
+			<option value="Kansai">Kansai</option>
+			<option value="Chugoku">Chugoku</option>
+			<option value="Shikoku">Shikoku</option>
+			<option value="Kyushu">Kyushu</option>
+		</select>
+	</div>
+</header>
+<aside>poop</aside>
+<div id='map'>
+	<iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/teefmummy1.cifitwttvbx9drylxdtu4s7hb/attribution,zoompan,zoomwheel,geocoder,share.html?access_token=pk.eyJ1IjoidGVlZm11bW15MSIsImEiOiJjaWZpdHd2MW5id2E4c3Vrbnc2aGl3eDFjIn0.C9n_Xq2FiTcvC57Z1zyg0g'></iframe>
+	<span class="overlay">
+		<h2 class="main-body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat mollitia quia debitis et velit, quas expedita fugit veritatis nesciunt, ex architecto, voluptates, ut ad. Expedita, voluptates quae a est officia?
+		</h2>
+	</span>
+</div>
+
+
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoidGVlZm11bW15MSIsImEiOiJjaWZpdHd2MW5id2E4c3Vrbnc2aGl3eDFjIn0.C9n_Xq2FiTcvC57Z1zyg0g';
+var map = L.mapbox.map('map', 'teefmummy1.cifitwttvbx9drylxdtu4s7hb')
+    .setView([43.918, 140.235], 7);
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
